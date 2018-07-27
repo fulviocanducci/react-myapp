@@ -45,7 +45,7 @@ class Menu extends Component {
                 this.state.materialize.options
             );
             this.setState({materialize});
-            console.log(this.state.materialize);
+            console.log(this.state);
         }.bind(this));
     }
 
